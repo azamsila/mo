@@ -1,0 +1,19 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 56px;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 10px;
+}
+
+#increment, #decrement ,#colorpicker,#counter {
+ cursor: pointer;
+ user-select: none;
+}
+body{
+    background-color: yellow;
+}
